@@ -26,6 +26,7 @@
 	div $t0, $s0, $s1 # no need to retrieve quotient and remainder
 					  # from hi&lo since we give a result storing register
 					  # they still get stored in hi&lo though
+					  	
 	li $v0, 1
 	move $a0, $t0
 	syscall
